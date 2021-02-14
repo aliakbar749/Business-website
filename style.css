@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* avoid defaut margin padding problem  */
+
+/* all page header section generel css start from here  */
+.header{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-bar{
+    background-image: url(images/Back.jpg);
+    height: 600px;
+    width: 100%;
+  }
+  /* background image setup for home page  */
+  
+  /*start unordered list css  */
+  .header ul {
+    list-style-type: none;
+    
+  }
+  
+  .header li {
+    float: left;
+    padding-inline-end: 20px;
+  }
+  
+  .header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  /*start hover effect on menu bar  */
+  .header li a:hover {
+    background-color: #111111;
+    padding: 10px;
+    transform: scale(1.5);
+  }
+  /* Content style start  */
+  .content{
+    padding-top: 250px ;
+    padding-left: 560px;
+    width: 100%;
+  
+}
+.content h1{
+    font-size: 40px;
+    color: #1f1717;
+}
+.boxes{
+
+    height: 200px;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 60px;
+    
+}
+.box{
+    height: 170px;
+    width: 30%;
+    margin-inline-end: 10px;
+    background-color: rgba(51, 51, 51, 0.61);
+    float: left;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 5px;
+    
+}
+.box:hover{
+    background-color: rgba(255, 235, 205, 0.103);
+    
+}
+.types{
+    height: 300px;
+    width: 100%;
+    padding: 30px;
+    background-color: white;
+}
+.type{
+    height: 100px;
+    width: 30%;
+    margin-inline-end: 20px;
+    float: left;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.details{
+    height: 400px;
+    width: 100%;
+   
+   
+}
+.image img{
+    height: 380px;
+    width: 40%;
+    padding: 30px;
+}
+.why-us{
+    height: 380px;
+    width: 40%;
+    padding: 30px;
+    float: left;
+
+}
+.contract{
+    background-image: url(images/Back1.jpg);
+    height: 600px;
+    width: 100%;
+    padding-top: 200px;
+    color: white;
+}
+.sample{
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 100px;
+    width: 30%;
+    background-color: rgba(255, 99, 71, 0.548);
+    float: left;
+    margin-inline-end: 5px;
+    margin-block-end: 5px;
+}
+.last{
+    height: 400px;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+}
+.works{
+    height: 500px;
+    width: 30%;
+    
+    padding: 10px;
+    float: left;
+    margin-inline-end: 20px;
+    color: white;
+}
+.subscribe{
+    height: 500px;
+    width: 20%;
+    padding: 30px;
+    
+    float: left;
+    color: white;
+    
+
+
+}
+.information{
+    height: 150px;
+    width: 30%;
+    padding: 30px;
+    padding-block-end: 10px;
+    float: left;
+    color: white;
+
+}
+.work img{
+    height: 150px;
+    width: 100%;
+    padding-block-end: 10px;
+}
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .our-work{
+      height: 800px;
+      width: 100%;
+  }
+  .first-work{
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 200px;
+    width: 30%;
+    background-color: rgba(255, 99, 71, 0.548);
+    float: left;
+    margin-inline-end: 5px;
+    margin-block-end: 5px;
+}
+.first-work img{
+    
+   
+    height: 200px;
+    width: 100%;
+    background-color: rgba(255, 99, 71, 0.548);
+    float: left;
+    
+    
+}
+.form{
+    padding-top: 100px;
+    height: 600px;
+    width:100%;
+    margin: 10px;
+    background-image: url(images/work2.jpg);
+}
+.formm{
+    padding-top: 100px;
+    height: 400px;
+    width:50%;
+    margin: 10px;
+
+}
+/* end  */
+
+/* text type input decoration  */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    overflow: hidden;
+    
+  }
+  /* end  */
+  /* email type input decoration  */
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  /* end  */
+  /* submit type input decoration  */
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+   
+  }
+  .formm label{
+      color: rgb(77, 29, 211);
+
+  }
+  .post_box{
+	height:300px;
+	width:32.5%;
+		margin-top:5px;
+	margin-left:10px;
+		border-radius:5px;
+		background-color:#1198287a;
+		float:left;
+		margin-bottom:5px;
+		
+}
+.post_box img{
+	height:80px;
+	width: 60px;
+}
+@media (max-width:700px){
+    .header.content{
+        width: 100%;
+        height: 200px;
+    }
+}
